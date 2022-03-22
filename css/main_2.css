@@ -1,6 +1,8 @@
 /* Utility Class */
-.box {
-
+.boxHelper {
+   color: #fff;
+   background-color: #000;
+   text-align: center;
 }
 
 .hidden {
@@ -41,8 +43,19 @@ img {
    url('../fonts/lustria-regular-webfont.svg#lustriaregular') format('svg');
    font-weight: normal;
    font-style: normal;
-   }
-   
+}
+
+@font-face {
+   font-family: 'latoreguar';
+   src: url('../fonts/lato-regular-webfont.eot');
+   src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/lato-regular-webfont.woff') format('woff'),
+   url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+   url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
 
 /* General Rules for Elements */
 
@@ -144,7 +157,8 @@ h2, h3 {
    -webkit-transform: rotate(90deg);
    -ms-transform: rotate(90deg);
    transform: rotate(90deg);
-} 
+}
+
 /* END HERE */
 
 
