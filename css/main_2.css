@@ -14,6 +14,7 @@ img, embed, object, video {
    max-width: 100%;
 }
 
+/* switch box model */
 html {
    box-sizing: border-box;
 }
@@ -31,9 +32,6 @@ img {
 
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lustria&display=swap');
-
 @font-face {
    font-family: 'lustriaregular';
    src: url('../fonts/lustria-regular-webfont.eot');
@@ -46,7 +44,7 @@ img {
 }
 
 @font-face {
-   font-family: 'latoreguar';
+   font-family: 'latoregular';
    src: url('../fonts/lato-regular-webfont.eot');
    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
    url('../fonts/lato-regular-webfont.woff') format('woff'),
@@ -60,7 +58,7 @@ img {
 /* General Rules for Elements */
 
 body {
-   font-family: 'latoregular', Arial, Helvetica, sans-serif;
+   font-family: 'latoregular', Helvetica, Arial, sans-serif;
    background-color: #fff;
    margin: 0;
    padding: 0;
@@ -71,11 +69,11 @@ a {
    color: #000;
    text-decoration: none;
    outline: 0;
-   transition: all .1s linear 0s;
+   transition:all .1s linear 0s;
 }
 
 h2, h3 {
-   font-family: 'lustriaregular', 'Times New Roman', Times, serif;
+   font-family: 'lustriaregular', Times, 'Times New Roman', serif;
    color: #215445;
 }
 
