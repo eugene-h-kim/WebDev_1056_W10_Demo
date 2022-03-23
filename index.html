@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wellason Golf Club - London, Ontario</title>
+
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<!-- rather than using one base container with an id, I will use multiple containers as I need them using a class, this allows for some content to be in a container and other content to go full width -->
+
+<body>
+	<h1 class="hidden">Wollaston Golf Club - London, Ontario</h1>
+
+	<div class="container">
+		<header id="mainHeader" class="row">
+			<nav id="mainNav">
+				<h2 class="hidden">Main Navigation</h2>
+
+				<button id="button"></button>
+
+				<div id="burgerCon">
+					<ul id="burgerMenu">
+						<li><a href="#">Golf Course</a></li>
+						<li><a href="#">Green Fees</a></li>
+						<li><a href="#">Membership</a></li>
+						<li><a href="#">Driving Range</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+
+					<form id="searchForm" action="search.php" method="get">
+						<div id="searchCon">
+							<input type="text">
+							<input type="submit" value="search">
+						</div>
+					</form>
+				</div>
+			</nav>
+
+			<div id="logoCon">
+				<img src="images/wollaston_logo.svg" alt="Wollaston Golf Logo" id="wollastonLogo">
+			</div>
+		</header>
+	</div> <!-- container for header -->
+
+	<div id="pano">
+		<section class="container">
+			<h2 class="hidden">Rated Top 10 Book now</h2>
+			<div id="infoFrost"> <!-- start infoFrost -->
+				<h2>RATED TOP 10 IN ONTARIO</h2>
+				<h3>LUSH GREENS AND BREATHTAKING SCENERY</h3>
+				<p>Wollaston Golf Club offers you access to one of South Western Ontario’s most prestigious golf courses. Rated top 10 in Ontario by Golf Digest, our course has something to offer golfers of all skill levels.</p>
+
+				<a href="#" id="bookNow">BOOK NOW</a>
+			</div> <!-- end infoFrost -->
+		</section>
+	</div> <!-- container for pano -->
+
+	<div class="container">
+		<section id="serviceCon">
+			<h2 class="hidden">Golf Course Services</h2>
+			<section class="services"> <!-- start Pro Shop -->
+				<img src="images/pro_icon.svg" alt="Pro Shop Icon" class="icon">
+				<h2>PRO SHOP</h2>
+				<h3>FOR ALL YOUR NEEDS</h3>
+				<p>Our pro shop offers it all. We carry all the latest in golf clubs, golf balls, golf bags, golf gloves, golf clothing, golf shoes and golf accessories. Our employees are highly trained and can offer advice about any product.</p>
+				<a href="#">Find Out More >>></a>
+			</section> <!-- end Pro Shop -->
+
+			<section class="services"> <!-- start golf carts -->
+				<img src="images/cart_icon.svg" alt="Golf Cart Icon" class="icon">
+				<h2>GOLF CARTS</h2>
+				<h3>ALL DAY RENTALS</h3>
+				<p>We carry the finest golf carts in Ontario.  Our carts are quiet, virtually vibration free, and have the lowest emissions around. We also offer solar powered golf carts as well. All of our carts offer exceptional mileage.</p>
+				<a href="#">Find Out More >>></a>
+			</section> <!-- end golf carts -->
+
+			<section class="services"> <!-- start drink services  -->
+				<img src="images/drink_icon.svg" alt="Drink Services Icon" class="icon">
+				<h2>DRINK SERVICE</h2>
+				<h3>SERVED ON EACH HOLE</h3>
+				<p>Need a refreshing drink but don’t feel like walking to the clubhouse.  Let us serve you directly on a hole.  We offer a wide variety of beers, coolers and mixed drinks.  A large assortment of snacks are also available.</p>
+				<a href="#">Find Out More >>></a>
+			</section> <!-- end services -->
+		</section> <!-- end serviceCon -->
+
+		<section id="extraCon">
+			<h2 class="hidden">Golf Course Extra</h2>
+			<div class="extras"> <!-- start clubhouse -->
+				<img src="images/clubhouse2.jpg" alt="The Clubhouse" class="extrasImg">
+				<h2>CLUBHOUSE</h2>
+				<p>Our clubhouse was built in 1920 and refurbished in 2012.  Our staff of chefs can cook anything you desire. We also have over 20 craft beers on tap.</p>
+			</div> <!-- end clubhouse -->
+
+			<div class="extras"> <!-- start platinum -->
+				<img src="images/platinum2.jpg" alt="The Platinum Club" class="extrasImg">
+				<h2>PLATINUM CLUB</h2>
+				<p>This elite club offers more perks than regular membership.After hours access, and concierge services are a few perks that platinum members enjoy.</p>
+			</div> <!-- end platinum -->
+		</section>
+	</div> <!-- container for middle of site -->
+
+
+
+	<footer id="footerCon">
+		<div class="container"> 
+			<nav>
+				<h2 class="hidden">Footer Navigation</h2>
+				<a href="#" id="backBut">BACK TO TOP ^</a>
+				<ul id="footerNav">
+					<li><a href="#">GOLF COURSE</a></li>
+					<li><a href="#">GREEN FEES</a></li>
+					<li><a href="#">MEMBERSHIP</a></li>
+					<li><a href="#">DRIVING RANGE</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</nav>
+		</div> <!-- end footer div -->
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
